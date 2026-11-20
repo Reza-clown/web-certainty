@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media print {
+  nav,
+  footer,
+  button {
+    display: none !important;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
+
+  .shadow-sm,
+  .shadow-md,
+  .shadow-lg,
+  .shadow-xs,
+  .shadow-2xs {
+    box-shadow: none !important;
+    border: 1px solid #cbd5e1 !important;
+  }
+}   
